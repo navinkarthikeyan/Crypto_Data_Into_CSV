@@ -18,4 +18,4 @@ with open('crypto.csv','w',encoding='UTF8',newline = '') as f:
     
     writer.writerow(csvheader)
     writer.writerows(our_data)
-print('done')
+print('Successful')
